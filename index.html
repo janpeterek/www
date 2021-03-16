@@ -11,6 +11,7 @@
             <h1>World Wide Web</h1>
         </header>
         <main> 
+            <section>
             <h2>Vznik WWW a principy</h2>
         <p> 
             <b>World Wide Web</b> (WWW, také pouze zkráceně web), ve volném překladu „celosvětová pavučina“, je označení pro aplikace
@@ -34,8 +35,169 @@
              W3C je mezinárodní konsorcium jehož členové společně s veřejností vyvíjejí webové standardy pro WWW. Konsorciu předsedá
             Tim Berners-Lee.
         </p>
-
-        </main>
+    </section>
+    <section>
+        <h2>WWW - otázky a odpovědi</h2>
+        <h3>Webový server</h3>
+        <div class="otazka"><b>1. Jakou roli plní webový server? Uveďte příklady webových serverů.</b></div>
+       
+            <p>Server je bezobslužný program, který přijímá a obsluhuje požadavky klientů. Webový server je připojen k počítačové
+                síti a přijímá požadavky v souladu s protokolem HTTP (HTTP Request). Tyto požadavky vyřizuje a počítači, který
+                požadavek vznesl, vrací odpověď. 
+            </p>
+            <h4>Příklady webových serverů</h4>
+            <ul> <div class="odpoved">
+            <li><b>Apache</b></li>
+            <li><b>NGINX</b></li>
+            <li><b>Microsoft Internet Information Server</b></li>
+            </ul>
+        </div>
+        </section>
+        <section>
+            <h3>Webový klient</h3>
+            <div class="otazka"><b>2. Jak se nazývá program označovaný jako webový klient? 
+                Co je jeho úkolem? Vyjmenujte nejpoužívanější webové 
+                klienty.</b></div>
+            <div class="odpoved">
+                <p>Klient (browser, prohlížeč) je program, který komunikuje s uživatelem a na základě jeho pokynů se obrací na jednotlivé
+                servery, získává od nich data a zobrazuje je. Nejběžnější klienti jsou Mozilla Firefox, Opera, Safari, Google Chrome,
+                Microsoft Edge, Microsoft Internet Explorer.</p>
+</div>
+        </section>
+        <section>
+            <h3>Komunikace mezi webovým klientem a 
+                webovým serverem</h3>
+            <div class="otazka"><b>3. Jak probíhá komunikace mezi webovým klientem a 
+                webovým serverem?</b></div>
+            <div class="odpoved">
+                <p>Jelikož klient i server jsou programy, nemohou spolu komunikovat lidskou řečí, ale nějakým jiným, přesně definovaným
+                způsobem. V Internetu se těmto pravidlům komunikace říká protokoly. Pro přenos webových stránek se používá protokol
+                HTTP (HyperText Transfer Protocol).</p>
+</div>
+</section>
+<section>
+    <h3>HTTP</h3>
+    <div class="otazka"><b>4. Co je HTTP?</b></div>
+    <div class="odpoved">
+        <p>JHTTP (Hypertext Transfer Protocol) je internetový protokol určený pro komunikaci s WWW servery. Slouží pro přenos
+        hypertextových dokumentů ve formátu HTML, XML, i jiných typů souborů. Používá obvykle port TCP/80, verze 1.1 protokolu
+        je definována v RFC 2616.</p>
+</div>
+</section>
+<section>
+    <h3>Stavové kódy HTTP</h3>
+    <div class="otazka"><b>5. Vypište do tabulky stavové kódy HTTP.</b></div>
+    <div class="odpoved">
+        <table>
+            <caption>Stavové kódy odpovědi serveru</caption>
+            <tr>
+                <th>Kód</th>
+                <th>Typ zprávy</th>
+            </tr>
+            <tr>
+                <td>1..</td>
+                <td>informační zpráva</td>
+            </tr>
+            <tr>
+                <td>2..</td>
+                <td>úspěšné vyřízení požadavku</td>
+            </tr>
+            <tr>
+                <td>3..</td>
+                <td>problémy spojené s přesměrováním</td>
+            </tr>
+            <tr>
+                <td>4..</td>
+                <td>chyby související s vyřízením požadavku (stránka není dostupná, apod.)</td>
+            </tr>
+            <tr>
+                <td>5..</td>
+                <td>interní chyby serveru</td>
+            </tr>
+        </table>
+</div>
+</section>
+<section>
+    <h3>Protokol HTTPS</h3>
+    <div class="otazka"><b>6. Proč se stále častěji využívá protokol HTTPS?</b></div>
+    <div class="odpoved">
+        <p>Existuje několik dobrých důvodů, proč používat HTTPS na svém webu, a trvat na HTTPS při prohlížení, nakupování a práci
+        na webu jako uživatel:</p>
+        <ul>
+            <li><b>Integrita a autentizace</b></li>
+            <li><b>Ochrana osobních údajů</b></li>
+            <li><b>Uživatelská zkušenost</b></li>
+            <li><b>Kompatibilita</b></li>
+        </ul>
+</div>
+</section>
+<section>
+    <h3>URL</h3>
+    <div class="otazka"><b>7. Vysvětlete zkratku URL a připojte pět různých příkladů 
+        URL odkazů.
+        </b></div>
+    <div class="odpoved">
+        <p>URL, zkratka pro Uniform Resource Locator („jednotný lokátor zdroje“), běžně webová adresa je řetězec znaků, který
+        slouží k přesné specifikaci umístění zdrojů informací na Internetu. Nejběžnějším zdrojem je webová stránka (protokol
+        http/https), ale používá se i řada dalších, například sdílené úložiště souborů (ftp) nebo e-mailová schránka (mailto). V
+        internetovém prohlížeči se zadává a zobrazuje v adresním řádku.</p>
+        <ul>
+            <li><b>https://www.socrative.com/</b></li>
+            <li><b>https://www.seznam.cz/</b></li>
+            <li><b>https://wish.com/</b></li>
+            <li><b>https://google.com/</b></li>
+            <li><b>https://portal.msk.cz/</b></li>
+        </ul>
+</div>
+</section>
+<section>
+    <h3>Cookies</h3>
+    <div class="otazka"><b>8. Co jsou a k čemu slouží tzv. cookies? Připojte obrázek
+        ukazující uložená cookies k některé internetové 
+        stránce.</b></div>
+    <div class="odpoved">
+        <p>Jako cookie (anglicky koláček, oplatka, sušenka) se v protokolu HTTP označuje malé množství dat, která WWW server pošle
+        prohlížeči, který je uloží na počítači uživatele. Při každé další návštěvě téhož serveru pak prohlížeč tato data posílá
+        zpět serveru. Cookies běžně slouží k rozlišování jednotlivých uživatelů, ukládají se do nich uživatelské předvolby apod.
+        Myšlenku cookies navrhl v 90. letech Lou Montulli, tehdy pracující u firmy Netscape Communications.</p>
+        <img src="../www/cookie.png" alt="Cookies">
+</div>
+</section>
+<section>
+    <h3>Internetový vyhledávač</h3>
+    <div class="otazka"><b>9. Vypište přehledně jednotlivé fáze fungování 
+        internetových vyhledávačů.</b></div>
+    <div class="odpoved">
+    <ul>
+        <li><b>1. Prohledání webových stránek</b>- Pro prohledání webových stránek má internetový vyhledávač automatický program, tzv.
+        vyhledávací robot (crawler, bot, nebo též spider – „pavouk“), který prochází celý webový prostor. Robot dostane na
+        začátku seznam atraktivních vstupních míst (odkazů), jejichž obsah si přečte, uloží do databáze a zapamatuje si
+        navštívenou adresu odkazu, aby se na ni již podruhé nevracel. Z obsahu stažené stránky vybere seznam všech obsažených
+        odkazů a opět všechny odkazy navštíví. Cyklus návštěvy, sesbírání odkazů a dalších návštěv se stále opakuje. Robot se na
+        navštívené stránky vrací v pravidelných intervalech, aby zjistil, zda se na stránce neobjevily nějaké nové informace. Z
+        principu práce vyhledávače vyplývá, že nikdy nemá úplně aktuální informace, ale prezentuje je se zpožděním.</li>
+        <li><b>2. Indexování</b>- Databázi obsahující uložené obsahy navštívených stránek je potřeba indexovat, aby bylo možné podle
+        zadaných slov co nejrychleji najít adresy stránek, které je obsahují. Zároveň je nutné vystavět index tak, aby
+        poskytoval na prvních místech stránky s nejvyšší užitnou hodnotou (relevancí, mající nejvyšší hodnocení kvality,
+        nejvyšší váhu). Pro výpočet relevance se používají nejrůznější algoritmy, které jsou založeny na nejrůznějších znacích
+        stránek a různých úhlech analýzy jejich obsahu.</li>
+        <li><b>3. Vyhledávání</b>- Databáze a její index se zpřístupní na vstupní stránce vyhledávače. Uživatel získá po zadání hledaných
+        slov seznam adres, na kterých robot hledaná slova našel. Pro vyšší přehlednost se zobrazuje kromě odkazu ještě titulek
+        stránky, a okolí nalezených slov.</li>
+    </ul>
+</div>
+</section>
+<section>
+    <h3>HTML hypertext</h3>
+    <div class="otazka"><b>10. Vysvětlete zkratku HTML a pojem hypertext.</b></div>
+    <div class="odpoved">
+        <p>Hypertext Markup Language (zkratka HTML) je v informatice název značkovacího jazyka používaného pro tvorbu webových
+        stránek, které jsou propojeny hypertextovými odkazy. HTML je hlavním z jazyků pro vytváření stránek v systému World Wide
+        Web, který umožňuje publikaci dokumentů na Internetu. Jazyk je aplikací dříve vyvinutého rozsáhlého univerzálního značkovacího jazyka SGML (Standard Generalized Markup
+        Language). Vývoj HTML byl ovlivněn vývojem webových prohlížečů, které zpětně ovlivňovaly definici jazyka.</p>
+</div>
+</section>
+     </main>
         <footer>
             <hr>
             <p> &copy;2021 - Peterek Jan, <a href="https://www.sspu-opava.cz" target="new">SŠPU Opava</a><p>
